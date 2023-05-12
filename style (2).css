@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.vazir{
+    font-family: 'vazir';
+}
+header{
+    background-color: gray;
+    width:100%;
+    height:50px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    filter: opacity(70%);
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+     margin-right:20px;
+     font-size: 12px;
+     color:#fff;
+     padding: 17px;
+     transition: 0.3s;
+     font-family: 'vazir';
+}
+ul{
+    display: flex;
+}
+a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.bg{
+    height: 500px;
+    background-image:url(https://files.virgool.io/upload/users/182900/posts/zangiiyhdehv/tfv0ole923op.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.one-project{
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: blueviolet;
+    width:250px;
+    color: lightslategray;
+    box-shadow:5px 5px 7px rgb(35, 58, 35);
+}
+.proje{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:80%;
+    filter: opacity(80%);
+}
+.content{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 250px;
+}
+.intro{
+    height: 350px;
+    display: flex;
+}
+
+.row p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+.text-align{
+    text-align: center;
+}
+.space-beetween{
+    justify-content: space-between;
+}
+
+.align-items{
+    align-items: center;
+}
+.justify-content-cxenter{
+    justify-content: center;
+}
+.card{
+    height: 250;
+    background-color: darkgray;
+    display: flex;
+}
+.body-card{
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    background-color: darkgray;
+    box-shadow: 0 3px 10px rgb(99, 99, 99);
+    padding: 10px;
+}
+.body-card p{
+    font-size: 12px;
+}
+.card-right{
+    width: 60%;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.members{
+     display: flex;
+     background-color: lightgray;
+     justify-content: center;
+}
+.body-members{
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgb(99, 99, 99);
+}
+
+.body-members p{
+    font-size: 12px;
+}
+
+.footer{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(61, 61, 61);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.desc{
+    width: 30%;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.justify{
+    text-align: justify;
+}
